@@ -37,11 +37,11 @@ WAREHOUSES
 
 2
 
-&gt ADD PRODUCT "Sofia Vegara 5 Piece Living Room Set"
+>ADD PRODUCT "Sofia Vegara 5 Piece Living Room Set"
 
 38538505-0767-453f-89af-d11c809ebb3b
 
-&gt ADD PRODUCT "BED" 5ce956fa-a71e-4bfb-b6ae-5eeaa5eb0a70
+>ADD PRODUCT "BED" 5ce956fa-a71e-4bfb-b6ae-5eeaa5eb0a70
 
 &gt ADD PRODUCT "TRUNK" 5ce956fa-a71e-4bfb-b6ae-5eeaa5eb0a70
 
