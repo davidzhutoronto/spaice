@@ -17,17 +17,17 @@ Example
 
 Here is an example session to show you what a run of your program should look like.
 
-Example Input is prepended with &gt
+Example Input is prepended with &gt;
 
-Example output is not prepended with &gt.
+Example output is not prepended with &gt;.
 
-&gt ADD WAREHOUSE 970
+&gt;ADD WAREHOUSE 970
 
-&gt ADD WAREHOUSE 45
+&gt;ADD WAREHOUSE 45
 
-&gt ADD WAREHOUSE 2
+&gt;ADD WAREHOUSE 2
 
-&gt LIST WAREHOUSES
+&gt;LIST WAREHOUSES
 
 WAREHOUSES
 
@@ -37,27 +37,26 @@ WAREHOUSES
 
 2
 
->ADD PRODUCT "Sofia Vegara 5 Piece Living Room Set"
+&gt;ADD PRODUCT "Sofia Vegara 5 Piece Living Room Set"
 
 38538505-0767-453f-89af-d11c809ebb3b
 
->ADD PRODUCT "BED" 5ce956fa-a71e-4bfb-b6ae-5eeaa5eb0a70
-
-&gt ADD PRODUCT "TRUNK" 5ce956fa-a71e-4bfb-b6ae-5eeaa5eb0a70
+&gt;ADD PRODUCT "BED" 5ce956fa-a71e-4bfb-b6ae-5eeaa5eb0a70
+&gt;ADD PRODUCT "TRUNK" 5ce956fa-a71e-4bfb-b6ae-5eeaa5eb0a70
 
 ERROR ADDING PRODUCT PRODUCT with SKU 5ce956fa-a71e-4bfb-b6ae-5eeaa5eb0a70
 
 ALREADY EXISTS
 
-&gt LIST PRODUCTS
+&gt;LIST PRODUCTS
 
 Sofia Vegara 5 Piece Living Room Set 38538505-0767-453f-89af-d11c809ebb3b
 
 BED 5ce956fa-a71e-4bfb-b6ae-5eeaa5eb0a70
 
-&gt STOCK 38538505-0767-453f-89af-d11c809ebb3b 970 1000
+&gt;STOCK 38538505-0767-453f-89af-d11c809ebb3b 970 1000
 
-&gt LIST WAREHOUSE 970
+&gt;LIST WAREHOUSE 970
 
 ITEM NAME ITEM_SKU QTY
 
