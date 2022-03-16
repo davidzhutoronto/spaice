@@ -63,6 +63,8 @@ ITEM NAME ITEM_SKU QTY
 Sofia Vegara 5 Piece Living Room Set 38538505-0767-453f-89af-d11c809ebb3b 1000
 
 
-
-
+I assumet that if a warehouse has a stock limit n, that means it will only stock total of n items no matter what product it is. 
+For example, if a warehouse has a stock limit of 5000, I stock 3000 unit of product a, and then I try to stock 3000 unit of product b
+It will only stock 2000 unit of product b, beccuase the warehouse is full when 3000 of a + 2000 of b = 5000 unit are in the warehouse.
+ 
 A command log history file called "commandLogHistory.txt" will be stored in the same folder.

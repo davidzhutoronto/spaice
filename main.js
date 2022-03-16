@@ -11,9 +11,9 @@ var readline = require('readline'),
 rl.setPrompt('>');
 rl.prompt();
 
-let warehouses = [];
+let warehouses = []; //All warehouses
 let warehouseCounter = 0;
-let products = [];
+let products = []; //All products
 let productCounter = 0;
 let readyToWrite = true;
 let contentToWrite = "";
@@ -75,11 +75,11 @@ rl.on('line', function (line) {
         let qty = parseInt(line.split(" ")[3])
         let foundInWarehouse = false;
 
-        //find mathing product sku
+        //find matching product sku
         for (let i = 0; i < products.length; i++) {
             if (products[i].sku === sku) {
 
-                //find mathing warehouse
+                //find matching warehouse
                 for (let j = 0; j < warehouses.length; j++) {
                     if (warehouses[j].warehouseNo === warehouseNo) {
 
