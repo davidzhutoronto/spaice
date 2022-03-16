@@ -68,3 +68,5 @@ For example, if a warehouse has a stock limit of 5000, I stock 3000 unit of prod
 It will only stock 2000 unit of product b, beccuase the warehouse is full when 3000 of a + 2000 of b = 5000 unit are in the warehouse.
  
 A command log history file called "commandLogHistory.txt" will be stored in the same folder.
+
+Please press Ctrl + c to quit the program
